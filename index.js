@@ -1,11 +1,10 @@
-function calcuateTotal = (subtotal, shipping = 2.50) {
+function calcuateTotal = (subtotal, shipping = 2.50) => {
   return subtotal + shipping;
-}
+};
 
-function printTopThreeHeadlines(...headlines) {
-  const topThree = headlines.slice(0, 3)
-  return topThree.join('\n');
-}
+function printTopThreeHeadlines = (...headlines) => {
+  return value[0] value[1] value[2];
+};
 
-
+headlines = addAll(headlines, 0, 1, 2);
 
