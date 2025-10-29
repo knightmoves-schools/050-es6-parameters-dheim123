@@ -1,12 +1,19 @@
-function calculateTotal = (subtotal, shipping = 2.50) {
+const calculateTotal = (subtotal, shipping = 2.50) => {
   return subtotal + shipping;
 };
 
-function printTopThreeHeadlines = (...headlines) {
-  return value[0] + value[1] + value[2];
+const printTopThreeHeadlines = (...headlines) => {
+  return headlines.slice(0, 3).join('\n');
 };
 
-headlines = addAll(headlines, headline0, headline1, headline2);
+const newsHeadlines = [
+  'City Marathon Breaks Records',
+  'Local Artist Wins National Prize',
+  'New Study Reveals Health Benefits of Exercise',
+  'Weekend Weather Forecast Calls for Sun',
+  'Tech Company Announces Major Layoffs'
+];
+
 
 
 
